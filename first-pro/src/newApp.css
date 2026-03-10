@@ -1,0 +1,62 @@
+.counterApp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+
+.decrementValue{
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: red;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: white;
+}
+.incrementValue{
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: green;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: white;
+}
+.decrementValue:hover{
+    background-color: darkred;
+}
+.incrementValue:hover{
+    background-color: darkgreen;
+}   
+.counterValue{
+    font-size: 40px;
+}
+
+.counterContainer {
+    display: flex;
+    flex-direction: row; /* Value ko upar aur buttons ko niche lane ke liye */
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.buttonGroup {
+    display: flex; /* Dono buttons ko ek dusre ke barabar rakhne ke liye */
+    gap: 10px;     /* Buttons ke beech thoda fasla rakhne ke liye */
+    margin-top: 20px;
+}
